@@ -4,4 +4,6 @@ build:
   image: latest
 
 python:
+  pip_install: true
   version: 3.6
+  use_system_site_packages: true
